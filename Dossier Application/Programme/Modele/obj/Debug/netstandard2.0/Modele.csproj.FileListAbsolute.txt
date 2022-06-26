@@ -1,0 +1,9 @@
+F:\ProjetRendu\Dossier Application\Programme\Modele\bin\Debug\netstandard2.0\Modele.deps.json
+F:\ProjetRendu\Dossier Application\Programme\Modele\bin\Debug\netstandard2.0\Modele.dll
+F:\ProjetRendu\Dossier Application\Programme\Modele\bin\Debug\netstandard2.0\Modele.pdb
+F:\ProjetRendu\Dossier Application\Programme\Modele\obj\Debug\netstandard2.0\Modele.csprojAssemblyReference.cache
+F:\ProjetRendu\Dossier Application\Programme\Modele\obj\Debug\netstandard2.0\Modele.AssemblyInfoInputs.cache
+F:\ProjetRendu\Dossier Application\Programme\Modele\obj\Debug\netstandard2.0\Modele.AssemblyInfo.cs
+F:\ProjetRendu\Dossier Application\Programme\Modele\obj\Debug\netstandard2.0\Modele.csproj.CoreCompileInputs.cache
+F:\ProjetRendu\Dossier Application\Programme\Modele\obj\Debug\netstandard2.0\Modele.dll
+F:\ProjetRendu\Dossier Application\Programme\Modele\obj\Debug\netstandard2.0\Modele.pdb

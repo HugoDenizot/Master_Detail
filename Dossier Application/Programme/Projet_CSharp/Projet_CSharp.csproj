@@ -1,0 +1,298 @@
+﻿    
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Projet_CSharp</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Projet_CSharp</AssemblyName>
+    <ApplicationIcon>logo-overwatch.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ModifierVu\**" />
+    <EmbeddedResource Remove="ModifierVu\**" />
+    <None Remove="ModifierVu\**" />
+    <Page Remove="ModifierVu\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Emote.cs" />
+    <Compile Remove="Replique.cs" />
+    <Compile Remove="Skin.cs" />
+    <Compile Remove="Tag.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="img\Ana.png" />
+    <None Remove="img\Ashe.png" />
+    <None Remove="img\Background.jpg" />
+    <None Remove="img\Background1.jpg" />
+    <None Remove="img\Background2.jpg" />
+    <None Remove="img\Background3.jpg" />
+    <None Remove="img\Baptiste.png" />
+    <None Remove="img\Bastion.png" />
+    <None Remove="img\Bouldozer.png" />
+    <None Remove="img\Brigitte.png" />
+    <None Remove="img\Chacal.png" />
+    <None Remove="img\Chopper.png" />
+    <None Remove="img\D%3bVa.png" />
+    <None Remove="img\Doomfist.png" />
+    <None Remove="img\dps.png" />
+    <None Remove="img\DVa.png" />
+    <None Remove="img\Echo.png" />
+    <None Remove="img\Fatale.png" />
+    <None Remove="img\Faucheur.png" />
+    <None Remove="img\Fond.jpg" />
+    <None Remove="img\Genji.png" />
+    <None Remove="img\heal.png" />
+    <None Remove="img\logo.png" />
+    <None Remove="img\Lucio.png" />
+    <None Remove="img\Mccree.png" />
+    <None Remove="img\Mei.png" />
+    <None Remove="img\Moira.png" />
+    <None Remove="img\Orisa.png" />
+    <None Remove="img\Pc.png" />
+    <None Remove="img\ps4.jpg" />
+    <None Remove="img\ps4.png" />
+    <None Remove="img\Reinhardt.png" />
+    <None Remove="img\Sigma.png" />
+    <None Remove="img\Soldat 76.png" />
+    <None Remove="img\Sombra.png" />
+    <None Remove="img\Switch.jpg" />
+    <None Remove="img\switch.png" />
+    <None Remove="img\Symmetra.png" />
+    <None Remove="img\tank.png" />
+    <None Remove="img\Torbjörn.png" />
+    <None Remove="img\Tracer.png" />
+    <None Remove="img\Winston.png" />
+    <None Remove="img\xbox.png" />
+    <None Remove="img\Zarya.png" />
+    <None Remove="img\Zenyatta.png" />
+    <None Remove="Skin\SkinAna1.png" />
+    <None Remove="Skin\SkinAna2.jpg" />
+    <None Remove="Skin\SkinAna3.jpeg" />
+    <None Remove="vidéo\Fusil Bionique.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\Ana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Ange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Ashe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Baptiste.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Bastion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Bouldozer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Brigitte.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Chacal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Chopper.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Doomfist.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\dps.png" />
+    <Resource Include="img\DVa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Echo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Fatale.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Faucheur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Fond.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Genji.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Hanzo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heal.png" />
+    <Resource Include="img\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Lucio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Mccree.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Mei.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Moira.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Orisa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Pc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Pharah.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Reinhardt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Sigma.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Soldat 76.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Sombra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\switch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Symmetra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\tank.png" />
+    <Resource Include="img\Torbjörn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Tracer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Winston.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\xbox.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Zarya.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Zenyatta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\ps4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Skin\SkinAna1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\SkinAna2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\SkinAna3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="vidéo\Fusil Bionique.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modele\Modele.csproj" />
+    <ProjectReference Include="..\Stub\Stub.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="img\D%3bVa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Competences.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Cosmétique.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Histoire.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NavBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlEmote.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControleReplique.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlGagné.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlJoue.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlSkin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlTag.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Competences.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Cosmétique.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Histoire.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NavBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlEmote.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControleReplique.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlGagné.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlJoue.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlSkin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlTag.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

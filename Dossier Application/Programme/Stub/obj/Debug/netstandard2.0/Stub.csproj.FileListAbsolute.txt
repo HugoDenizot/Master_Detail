@@ -1,0 +1,12 @@
+F:\ProjetRendu\Dossier Application\Programme\Stub\bin\Debug\netstandard2.0\Stub.deps.json
+F:\ProjetRendu\Dossier Application\Programme\Stub\bin\Debug\netstandard2.0\Stub.dll
+F:\ProjetRendu\Dossier Application\Programme\Stub\bin\Debug\netstandard2.0\Stub.pdb
+F:\ProjetRendu\Dossier Application\Programme\Stub\bin\Debug\netstandard2.0\Modele.dll
+F:\ProjetRendu\Dossier Application\Programme\Stub\bin\Debug\netstandard2.0\Modele.pdb
+F:\ProjetRendu\Dossier Application\Programme\Stub\obj\Debug\netstandard2.0\Stub.csprojAssemblyReference.cache
+F:\ProjetRendu\Dossier Application\Programme\Stub\obj\Debug\netstandard2.0\Stub.AssemblyInfoInputs.cache
+F:\ProjetRendu\Dossier Application\Programme\Stub\obj\Debug\netstandard2.0\Stub.AssemblyInfo.cs
+F:\ProjetRendu\Dossier Application\Programme\Stub\obj\Debug\netstandard2.0\Stub.csproj.CoreCompileInputs.cache
+F:\ProjetRendu\Dossier Application\Programme\Stub\obj\Debug\netstandard2.0\Stub.csproj.CopyComplete
+F:\ProjetRendu\Dossier Application\Programme\Stub\obj\Debug\netstandard2.0\Stub.dll
+F:\ProjetRendu\Dossier Application\Programme\Stub\obj\Debug\netstandard2.0\Stub.pdb

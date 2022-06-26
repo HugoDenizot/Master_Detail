@@ -1,0 +1,51 @@
+﻿<Window x:Class="Projet_CSharp.AjouterSkins"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_CSharp"
+        mc:Ignorable="d"
+        Title="AjouterSkins" Height="450" Width="800">
+    <Window.Resources>
+
+    </Window.Resources>
+    <DockPanel>
+        <TextBlock Text="Ajouter un skin à votre héros favoris" Background="{StaticResource ButtonBackGroundColor}" FontFamily="{StaticResource defaultFontFamily}" DockPanel.Dock="Top" Style="{StaticResource StyleTextBlock }"></TextBlock>
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Annuler" Style="{StaticResource StyleButton}" Click="Annuler_Click"/>
+            <Button Content="Ajouter" Style="{StaticResource StyleButton}" Grid.Column="1" Click="Ajouter_Click" ></Button>
+        </Grid>
+        <Grid>
+            <Grid.Resources>
+                
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                
+            </Grid.RowDefinitions>
+            <TextBlock Style="{StaticResource StyleTextBlock}" HorizontalAlignment="Center" Text="Donnez le nom du skin que vous voulez ajouté: " Grid.Row="0"></TextBlock>
+            <TextBlock Style="{StaticResource StyleTextBlock}" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Donnez l'image associé au skin : " Grid.Row="1"></TextBlock>
+            <Button Content="Parcourir" Click="Parcourir_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+            <TextBlock Style="{StaticResource StyleTextBlock}" HorizontalAlignment="Right" Text="Donnez une description du skin ( Thèmes , Rareté ...)  : " Grid.Row="2"></TextBlock>
+            
+            
+
+            <TextBox Style="{StaticResource StyleFormulaire}" Text="{Binding LeSkin.Nom}" Grid.Row="0" Grid.Column="1" />
+            <Image Source="{Binding LeSkin.ImageNom}" Grid.Column="1" Grid.Row="1"/>
+            <TextBox Style="{StaticResource StyleFormulaire}" Text="{Binding LeSkin.Description}" Grid.Row="2" Grid.Column="1" />
+            
+
+        </Grid>
+
+    </DockPanel>
+</Window>
